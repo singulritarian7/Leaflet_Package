@@ -112,8 +112,8 @@ df &lt;-<span class="st"> </span><span class="kw">data.frame</span>(Location, La
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">library</span>(leaflet) 
 mymap &lt;-<span class="st"> </span><span class="kw">leaflet</span>() %&gt;%<span class="st"> </span><span class="kw">addTiles</span>() 
 mymap  <span class="co"># a map with the default OSM tile layer</span></code></pre>
-<p><div id="htmlwidget-9752" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-9752">{ "x": {
+<p><div id="htmlwidget-1363" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-1363">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -150,8 +150,8 @@ mymap  <span class="co"># a map with the default OSM tile layer</span></code></p
     <span class="dt">attribution =</span> <span class="st">'Tiles Courtesy of &lt;a href=&quot;http://www.mapquest.com/&quot;&gt;MapQuest&lt;/a&gt; &amp;mdash; Map data &amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;'</span>
     ) %&gt;%<span class="st"> </span><span class="kw">setView</span>(-<span class="dv">97</span>, <span class="dv">40</span>, <span class="dt">zoom =</span> <span class="dv">4</span>)
 mymap</code></pre>
-<p><div id="htmlwidget-2588" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-2588">{ "x": {
+<p><div id="htmlwidget-8363" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-8363">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -215,8 +215,8 @@ mymap</code></pre>
 <div id="adding-popups-at-a-certain-location." class="section level2">
 <h2>2. Adding popups at a certain location.</h2>
 <pre class="sourceCode r"><code class="sourceCode r">mymap %&gt;%<span class="st"> </span><span class="kw">addPopups</span>(-<span class="fl">85.472059</span>, <span class="fl">35.929550</span>, <span class="st">'&lt;b&gt;This is Sparta!&lt;/b&gt;, no really! This is Sparta, TN! '</span>)</code></pre>
-<p><div id="htmlwidget-8220" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-8220">{ "x": {
+<p><div id="htmlwidget-4818" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-4818">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -307,8 +307,8 @@ null,
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co"># add some circles to a map, using the dummy data we have created 'df'</span>
 mymap %&gt;%<span class="st"> </span><span class="kw">addCircles</span>(<span class="dt">data=</span>df)</code></pre>
 <pre><code>## Assuming 'Lon' and 'Lat' are longitude and latitude, respectively</code></pre>
-<p><div id="htmlwidget-8065" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-8065">{ "x": {
+<p><div id="htmlwidget-2669" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-2669">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -400,8 +400,8 @@ null
 },"evals": [  ] }</script></p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="co"># you can also explicitly use Lat and Long</span>
 mymap %&gt;%<span class="st"> </span><span class="kw">addCircles</span>(<span class="dt">data=</span>df,<span class="dt">lat=</span> ~Lat, <span class="dt">lng =</span> ~Lon, <span class="dt">radius =</span> <span class="dv">50</span>, <span class="dt">color =</span> <span class="st">'#ff0000'</span>)</code></pre>
-<p><div id="htmlwidget-759" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-759">{ "x": {
+<p><div id="htmlwidget-8344" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-8344">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -498,8 +498,8 @@ null
 <span class="st">    iconUrl: 'http://icons.iconarchive.com/icons/artua/star-wars/128/Master-Joda-icon.png',</span>
 <span class="st">    iconSize: [75, 75]</span>
 <span class="st">  })&quot;</span>))</code></pre>
-<p><div id="htmlwidget-9419" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-9419">{ "x": {
+<p><div id="htmlwidget-2503" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-2503">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -592,9 +592,9 @@ null
 <span class="st">    iconUrl: 'http://icons.iconarchive.com/icons/artua/star-wars/128/Master-Joda-icon.png',</span>
 <span class="st">    iconSize: [75, 75]</span>
 <span class="st">  })&quot;</span>)) %&gt;%
-<span class="st">  </span><span class="kw">addPopups</span>(-<span class="fl">86.753660</span>,<span class="fl">36.181098</span>,  <span class="st">'Atlanta...@#brrr@+-*`~|%&amp;#^$$'</span>)</code></pre>
-<p><div id="htmlwidget-979" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-979">{ "x": {
+<span class="st">  </span><span class="kw">addPopups</span>(-<span class="fl">86.753660</span>,<span class="fl">36.181098</span>,  <span class="st">'Atlanta...@#brrr@+-*`~|%&amp;#^$$'</span>) </code></pre>
+<p><div id="htmlwidget-7547" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-7547">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -724,8 +724,8 @@ null,
 <span class="st">    iconSize: [60, 60]</span>
 <span class="st">  })&quot;</span>)) %&gt;%
 <span class="st">  </span><span class="kw">addPopups</span>(<span class="dt">data=</span>df,df[<span class="dv">10</span>,<span class="st">&quot;Lon&quot;</span>],df[<span class="dv">10</span>,<span class="st">&quot;Lat&quot;</span>], <span class="kw">as.character</span>(df[<span class="dv">10</span>,<span class="st">&quot;Location&quot;</span>]))</code></pre>
-<p><div id="htmlwidget-3154" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-3154">{ "x": {
+<p><div id="htmlwidget-9613" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-9613">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -960,8 +960,8 @@ mymap %&gt;%<span class="st"> </span><span class="kw">addMarkers</span>(<span cl
 <span class="st">    iconUrl: 'http://icons.iconarchive.com/icons/artua/star-wars/128/Master-Joda-icon.png',</span>
 <span class="st">    iconSize: [50, 50]</span>
 <span class="st">  })&quot;</span>)) </code></pre>
-<p><div id="htmlwidget-714" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-714">{ "x": {
+<p><div id="htmlwidget-5343" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-5343">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -1060,8 +1060,8 @@ mymap %&gt;%<span class="st"> </span><span class="kw">addMarkers</span>(<span cl
 <span class="st">    iconSize: [50, 50]</span>
 <span class="st">  })&quot;</span>)) %&gt;%
 <span class="st"> </span><span class="kw">addPopups</span>(<span class="kw">as.vector</span>(df[df$Type==<span class="st">&quot;Vader&quot;</span>,<span class="st">&quot;Lon&quot;</span>]),<span class="kw">as.vector</span>(df[df$Type==<span class="st">&quot;Vader&quot;</span>,<span class="st">&quot;Lat&quot;</span>]), <span class="kw">as.character</span>(df[df$Type==<span class="st">&quot;Vader&quot;</span>,<span class="st">&quot;Location&quot;</span>]) ) </code></pre>
-<p><div id="htmlwidget-9979" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-9979">{ "x": {
+<p><div id="htmlwidget-6322" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-6322">{ "x": {
  "calls": [
  {
  "method": "tileLayer",

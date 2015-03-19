@@ -81,7 +81,7 @@ mymap %>% addMarkers(data=df,df[1,"Lon"],df[1,"Lat"], icon = JS("L.icon({
     iconUrl: 'http://icons.iconarchive.com/icons/artua/star-wars/128/Master-Joda-icon.png',
     iconSize: [75, 75]
   })")) %>%
-  addPopups(-86.753660,36.181098,  'Atlanta...@#brrr@+-*`~|%&#^$$') %>% 
+  addPopups(-86.753660,36.181098,  'Atlanta...@#brrr@+-*`~|%&#^$$') 
 
 ```
 
